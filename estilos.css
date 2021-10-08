@@ -1,0 +1,390 @@
+@charset "uft-8";
+
+body {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+	background-color: #fffdf9;
+	margin: 0;
+	padding: 0;
+}
+
+/*ESTILOS PARA EL HEADER*/
+
+a {
+    text-decoration: none;
+}
+
+.página {
+    background-color: #946f5a;
+}
+
+.header1 {
+    margin: auto;
+}
+
+.logoheader {
+    float: left;
+    margin-left: 60px;
+}
+
+.logoheader img {
+    width: 140px;
+}
+
+.contenedor1 {
+    width: 525px;
+	justify-content: space-between;
+    float: right;
+    vertical-align: middle;
+}
+
+.contenedor1 a {
+	color: #a67a53;
+	display: inline-block;
+	padding: 20px;
+	transition: 1s;
+    font-size: 13px;
+    font-weight: bold;
+    vertical-align: middle;
+}
+
+.contenedor1 a:hover {
+    text-decoration: underline;
+}
+
+.contenedor1 a img {
+    width: 30px;
+    height: 30px;
+}
+
+nav {
+    clear: both;
+}
+
+.menu {
+    background-color: #a67a53;
+
+}
+
+.menu a{
+    color: #f2e2c4;
+    display: inline-block;
+    padding: 20px;
+    transition: 1s;
+    font-weight: bold;
+    font-size: 14px;
+}
+
+.menu a:hover {
+    background-color: #946f5a;
+    color: white;
+}
+
+.contenedor2 {
+    max-width: 1120px;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+}
+
+.banner{
+    float: left;
+    width: 100%;
+}
+.main{
+    width: 100%;
+    float: left;
+    height: 400px;
+    text-align:center;
+    overflow:hidden;
+    margin:auto;
+}
+.main2{
+    width: 100%;
+    float: left;
+    height: 600px;
+    text-align:center;
+    overflow:hidden;
+    margin:auto;
+}
+.main-text{
+    float: left;
+    width: 100%;
+    font-size:50px;
+    font-family: 'Marck Script', cursive;
+    margin: 20px;
+    color: #BF455B;
+    text-align: center;
+}
+.main-card{
+    display:inline-table;
+    height:300px;
+    width:20%;
+    margin:3px;
+}
+.main-card2{
+    display:inline-table;
+    height:500px;
+    width:30%;
+    margin:3px;
+}
+.st{
+    font-family: 'Marck Script', cursive;
+    color:#BF455B;
+}
+.main-card-img1{
+    display:inline-table;
+    height:200px;
+    width:90%;
+    background-image: url('/imagenes/cup1.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.main-card-img2{
+    display:inline-table;
+    height:200px;
+    width:90%;
+    background-image: url('/imagenes/cup2.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.main-card-img3{
+    display:inline-table;
+    height:200px;
+    width:90%;
+    background-image: url('/imagenes/cup3.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.main-card-img4{
+    display:inline-table;
+    height:200px;
+    width:90%;
+    background-image: url('/imagenes/cup4.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.main-card-img12{
+    display:inline-table;
+    height:400px;
+    width:90%;
+    background-image: url('/imagenes/img1.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.main-card-img22{
+    display:inline-table;
+    height:400px;
+    width:90%;
+    background-image: url('/imagenes/img2.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.main-card-img32{
+    display:inline-table;
+    height:400px;
+    width:90%;
+    background-image: url('/imagenes/img3.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+/*Estilos del footer*/
+
+footer {
+    background-color: #bf455b;
+    display: flex;
+    height: 200px;
+    vertical-align: top;
+    justify-content: space-between;
+    padding-left: 80px;
+    padding-right: 80px;
+    padding-top: 20px;
+}
+
+.contenedorfooter {
+    float: left;
+    width: 140px;
+}
+
+.textofooter {
+    font-weight: bold;
+    font-size: 14px;
+    color: #f2e2c4;
+    text-align: center;
+}
+
+.iconosrrss {
+    width: 150px;
+    margin: auto;
+}
+
+.iconosrrss a img {
+    width: 30px;
+    height: 30px;
+    padding: 5px 5px 5px 5px;
+}
+
+.logofooter {
+    margin: auto;
+    width: 120px;
+}
+
+.logofooter img {
+    width: 120px;
+}
+
+.contenedorfooter2 {
+    float: left;
+    width: 335px;
+}
+
+.contenedorfooter2 div {
+    background-color: rgb(245, 245, 245);
+    border-color: rgb(80, 80, 80);
+    border-width: 2px;
+    border-style: solid;
+    height: 35px;
+}
+
+.cajasuscripcion {
+    padding: 10px 10px 10px 10px;
+    font-size: 12px;
+    font-weight: bold;
+    color: rgb(117, 117, 117);
+    margin: auto;
+}
+
+.iconospago {
+    width: 120px;
+    margin: auto;
+}
+
+.iconospago img {
+    width: 47px;
+    max-height: 47px;
+    padding-left: 5px;
+    padding-right: 5px;
+}
+
+.textofooter2 {
+    width: 250px;
+    margin: auto;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.textofooter2 a {
+    font-size: 13px;
+    color: #faf4e8;
+    display: block;
+    margin-bottom: 15px;
+    transition: 1s;
+}
+
+.textofooter2 a:hover {
+    text-decoration: underline;
+    color: #f2e2c4;
+}
+
+.textofooter3 {
+    font-size: 13px;
+    color: #faf4e8;
+    text-align: center;
+}
+
+/*estilos para nosotros*/
+
+main {
+    margin-left: 50px;
+    margin-right: 50px;
+    display: flex;
+    width: 100;
+    max-width: 2000px;
+}
+
+.seccion1 {
+    display: flex;
+}
+
+.titulo1 {
+    font-size: 20px;
+    color: #44a682;
+    font-weight: bolder;
+    padding: 10px 10px 10px 10px;
+}
+
+.imgnosotros1 {
+    float: left;
+    margin: 10px 0px 10px 35px;
+}
+
+.imgnosotros1 img {
+    width: 400px;
+    border-style: solid;
+    border-color: #44a682;
+    border-width: 5px;
+}
+
+.parrafonosotros1 {
+    font-size: 16px;
+    text-align: justify;
+    float: right;
+    margin-left: 20px;
+}
+
+.titulo2 {
+    font-size: 18px;
+    font-weight: bold;
+    text-align: center;
+}
+
+.estrategicos {
+    display: inline-block;
+    margin: auto;
+    justify-content: space-between;
+    width: 80%;
+    display: flex;
+    max-width: 1500px;
+}
+
+.estrategico1 {
+    width: 250px;
+    margin-right: 100px;
+    margin-left: 50px;
+}
+
+.estrategico1 img {
+    width: 80px;
+    margin-left: 50px;
+    margin-right: 50px;
+}
+
+.parrafonosotros2 {
+    font-size: 16px;
+    text-align: center;
+}
+
+.parrafonosotros3 {
+    font-size: 16px;
+    display: list-item;
+    width: 150px;
+}
+
+.imgnosotros2 {
+    float: right;
+    margin: 10px 25px 10px 25px;
+}
+
+.imgnosotros2 img {
+    width: 400px;
+    border-style: solid;
+    border-color: #44a682;
+    border-width: 5px;
+}
